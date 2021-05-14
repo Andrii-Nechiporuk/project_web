@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: Open Sans;
+    font-size: 1.125rem;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.logo{
+    width: 107px;
+    height: 103px;
+    left: 261px;
+    top: 17px;
+}
+nav.navbar{
+    background-color: #092643 !important;
+}
+
+/*шрифт для активних колонок навбара*/
+nav.navbar div.collapse ul.navbar-nav li a.nav-link.active{
+    color: #FFD973 !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 25px;
+}
+/*шрифт для колонок навбара*/
+nav.navbar div.collapse ul.navbar-nav li a.nav-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #FFF !important;
+
+}
+/*шрифт для дропдавна*/
+nav.navbar div.collapse ul.navbar-nav li ul li a.dropdown-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.813em;
+    line-height: 18px;
+    color: #000000 !important;
+    text-align:center;
+    }
+ul.navbar-nav{
+    margin-left: 17%;
+}
+a.navbar-brand{
+    margin-left: 13%;
+}
+
+ul.dropdown-menu{
+    width: 100% !important;
+    padding: 0px !important;
+    border-radius: 0px !important;
+
+}
+nav.navbar div.collapse ul.navbar-nav li ul li a.dropdown-item.multiply1{
+background-color:#FFD973;
+}
+a#navbarDropdown.nav-link{
+    padding:8px 0px !important;
+}
+a.dropdown-item{
+    padding: 11px 16px !important;
+}
+div#logoid{
+    width: 27%;
+}
+div#logoid a.navbar-brand{
+margin-left: 40% !important;
+
+}
+div#line{
+width: 73%;
+}
+@media screen and (min-width: 500px) {
+    nav.navbar div.collapse ul.navbar-nav li a.nav-link.active{
+        color: #FFD973 !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.875em;
+        line-height: 25px;
+    }
+    nav.navbar div.collapse ul.navbar-nav li a.nav-link{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.875em;
+        line-height: 25px;
+        color: #FFF !important;
+    
+    }
+    /*шрифт для дропдавна*/
+    nav.navbar div.collapse ul.navbar-nav li ul li a.dropdown-item{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.586em;
+        line-height: 18px;
+        color: #000000 !important;
+        text-align:center;
+        }
+}
+@media screen and (min-width: 1550px) {
+/*шрифт для активних колонок навбара*/
+nav.navbar div.collapse ul.navbar-nav li a.nav-link.active{
+    color: #FFD973 !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 25px;
+}
+/*шрифт для колонок навбара*/
+nav.navbar div.collapse ul.navbar-nav li a.nav-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: #FFF !important;
+
+}
+/*шрифт для дропдавна*/
+nav.navbar div.collapse ul.navbar-nav li ul li a.dropdown-item{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.813em;
+    line-height: 18px;
+    color: #000000 !important;
+    text-align:center;
+    }
+ }
+/*footer*/
+div.herb img{
+    width: 130px;
+    height: auto;
+}
+h5.footerh5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
+p.info{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: left;
+color: #FFD973;
+}
+a.linksfooter{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #2E81A2;
+text-decoration: none;
+}
+a.linksfooter:hover{
+    color: #6D6F6F;
+}
+p.pfooter{
+    text-align: left;
+}
+footer{
+    background-color:#111315 ;
+}
+div.footersocial{
+    padding-top: 1.5%;
+}
+/*body*/
+img.doctor{
+    width: 100%;
+}
+div.miniicons{
+    bottom: 85px;
+    background: rgba(0, 101, 141, 0.84);
+    height: 296px;
+}
+div.miniicons div{
+    height: 296px;
+}
+.navbar-toggler-icon{
+    background-color: #FFD973;
+}
+img.icons{
+max-width: 100px;
+}
+div.miniicon{
+    height: 148px;
+    width: 100%;
+}
+div.miniicontext{
+    height: 148px;
+    width: 100%;
+}
